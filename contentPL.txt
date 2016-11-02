@@ -24,7 +24,6 @@
             <button id="LangEnglish" type="button" onclick="loadDocEN()"><i class="fa fa-flag fa-fw w3-large w3-text-teal"></i>Angielski</button>
             <button id="LangPolish" type="button"onclick="loadDocPL()"><i class="fa fa-flag-o fa-fw w3-large w3-text-teal"></i>Polski</button>
             </div>
-            <div class="w3-center>Under translation</div>
           </p>
           <!-- For future use 
           <p>
