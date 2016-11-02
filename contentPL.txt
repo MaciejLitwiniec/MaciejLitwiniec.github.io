@@ -9,19 +9,20 @@
           <img src="photo1.jpg" style="width:100%">
         </div>
         <div class="w3-container"> 
-          <p><i class="fa fa-id-card-o fa-fw w3-margin-right w3-large w3-text-teal"></i>Polski content</p>
+          <p><i class="fa fa-id-card-o fa-fw w3-margin-right w3-large w3-text-teal"></i>Maciej Litwiniec</p>
           <p><i class="fa fa-briefcase fa-fw w3-margin-right w3-large w3-text-teal"></i>IT Operations Manager (IoT)</p>
-          <p><i class="fa fa-home fa-fw w3-margin-right w3-large w3-text-teal"></i>Warsaw, Poland</p>
+          <p><i class="fa fa-home fa-fw w3-margin-right w3-large w3-text-teal"></i>Warszawa, Polska</p>
           <p><i class="fa fa-envelope fa-fw w3-margin-right w3-large w3-text-teal"></i>litwiniec.maciej@gmail.com</p>
           <p><a href="https://www.linkedin.com/in/litwiniecm">
-              <i class="fa fa-linkedin fa-fw w3-margin-right w3-large w3-text-teal"></i>Linkedin Profile
+              <i class="fa fa-linkedin fa-fw w3-margin-right w3-large w3-text-teal"></i>Profil Linkedin
             </a>
           </p>
           <hr>
           <p>
-            <div class="w3-margin-bottom">Language changer: </div>
-            <button id="LangEnglish" type="button" onclick="loadDocEN()"><i class="fa fa-flag fa-fw w3-large w3-text-teal"></i>English</button>
-            <button id="LangPolish" type="button"onclick="loadDocPL()"><i class="fa fa-flag-o fa-fw w3-large w3-text-teal"></i>Polish</button>
+            <div class="w3-margin-bottom">Przełącz język: </div>
+            <button id="LangEnglish" type="button" onclick="loadDocEN()"><i class="fa fa-flag fa-fw w3-large w3-text-teal"></i>Angielski</button>
+            <button id="LangPolish" type="button"onclick="loadDocPL()"><i class="fa fa-flag-o fa-fw w3-large w3-text-teal"></i>Polski</button>
+            <div>Under translation</div>
           </p>
           <!-- For future use 
           <p>
@@ -31,26 +32,26 @@
           </p>
           -->
           <hr>
-          <p class="w3-large"><b><i class="fa fa-asterisk fa-fw w3-margin-right w3-text-teal"></i>Skills</b></p>
-          <p>Project Management</p>
+          <p class="w3-large"><b><i class="fa fa-asterisk fa-fw w3-margin-right w3-text-teal"></i>Umiejętności</b></p>
+          <p>Zarządzanie projektami</p>
           <div class="w3-progress-container w3-round-xlarge w3-small">
             <div class="w3-progressbar w3-round-xlarge w3-teal" style="width:90%">
               <div class="w3-center w3-text-white">90%</div>
             </div>
           </div>
-          <p>Testing</p>
+          <p>Testy</p>
           <div class="w3-progress-container w3-round-xlarge w3-small">
             <div class="w3-progressbar w3-round-xlarge w3-teal" style="width:75%">
               <div class="w3-center w3-text-white">75%</div>
             </div>
           </div>
-          <p>Statistics</p>
+          <p>Statystyka</p>
           <div class="w3-progress-container w3-round-xlarge w3-small">
             <div class="w3-progressbar w3-round-xlarge w3-teal" style="width:60%">
               <div class="w3-center w3-text-white">60%</div>
             </div>
           </div>
-          <p>Programming</p>
+          <p>Programowanie</p>
           <div class="w3-progress-container w3-round-xlarge w3-small">
             <div class="w3-progressbar w3-round-xlarge w3-teal" style="width:40%">
               <div class="w3-center w3-text-white">40%</div>
@@ -59,7 +60,7 @@
           <br>
           
           <!-- Certificates -->
-          <p class="w3-large w3-text-theme"><b><i class="fa fa-certificate fa-fw w3-margin-right w3-text-teal"></i>Certificates</b></p>
+          <p class="w3-large w3-text-theme"><b><i class="fa fa-certificate fa-fw w3-margin-right w3-text-teal"></i>Certyfikaty</b></p>
           <p>Prince 2</p>
           <div class="w3-progress-container w3-round-xlarge">
             <div class="w3-progressbar w3-round-xlarge w3-teal" style="width:100%">
@@ -87,23 +88,23 @@
           <br>
           
           <!-- Languages -->
-          <p class="w3-large w3-text-theme"><b><i class="fa fa-globe fa-fw w3-margin-right w3-text-teal"></i>Languages</b></p>
-          <p>Polish</p>
+          <p class="w3-large w3-text-theme"><b><i class="fa fa-globe fa-fw w3-margin-right w3-text-teal"></i>Języki</b></p>
+          <p>Polski</p>
           <div class="w3-progress-container w3-round-xlarge">
             <div class="w3-progressbar w3-round-xlarge w3-teal" style="width:100%">
               <div class="w3-center w3-text-white">Native</div>
             </div>
           </div>
-          <p>English</p>
+          <p>Angielski</p>
           <div class="w3-progress-container w3-round-xlarge">
             <div class="w3-progressbar w3-round-xlarge w3-teal" style="width:80%">
               <div class="w3-center w3-text-white">Business</div>
             </div>
           </div>
-          <p>German</p>
+          <p>Niemiecki</p>
           <div class="w3-progress-container w3-round-xlarge">
             <div class="w3-progressbar w3-round-xlarge w3-teal" style="width:30%">
-              <div class="w3-center w3-text-white">Developing</div>
+              <div class="w3-center w3-text-white">Nauka</div>
             </div>
           </div><br>
         </div>
@@ -119,7 +120,7 @@
         <h2 class="w3-text-grey w3-padding-16"><i class="fa fa-user-circle-o fa-fw w3-margin-right w3-xxlarge w3-text-teal"></i>Work Summary</h2>
         <div class="w3-container">
           <h5 class="w3-opacity"><b>
-          Polski content IT Product Manager with extensive experience in telecommunication,
+          Conscientious and professional IT Product Manager with extensive experience in telecommunication,
           data analysis and customer relations. Highly organised and efficient individual, whose thorough and
           precise approach to projects has yielded excellent results. Recent achievements include succesful leadership in Internet of Things project and number of passed PM certificates which enabled numerous improvements. 
           </b></h5>
@@ -171,12 +172,12 @@
           <h5 class="w3-opacity"><b>Junior Protocol Engineer / Samsung Electronics</b></h5>
           <h6 class="w3-text-teal"><i class="fa fa-calendar fa-fw w3-margin-right"></i>May 2013 - May 2015</h6>
           <p>
-            - On-site analysis of 2G/3G/LTE radio communication protocols in Poland, US and Scandinavia <br>
-            - IOT/IODT test sessions of 3G/LTE protocol stack with NTT DoCoMo (Japan) <br>
-            - Performing tests of modems in smartphones according to 3GPP specifications <br>
-            - Detailed reporting from performed analysis (ClearQuest, official daily reporting) <br>
-            - Creation of tools (scripts, software) to support the process of data analysis <br>
-            - Cooperation with other R&D centers in the world
+            - Analiza protokołów radiokomunikacyjnych 2G / 3G / LTE w Polsce, USA i Skandynawii <br>
+            - Przeprowadzanie sesji IOT/IODT dla 3G/LTE z operatorem NTT DoCoMo (Japonia) <br>
+            - Wykonywanie testów zgodnie ze specyfikacja 3GPP <br>
+            - Szczegółowe raportowanie w oparciu o przygotowane analizy (ClearQuest, oficjalne raporty) <br>
+            - Tworzenie skryptów wspomagających proces analizy danych i optymalizujących pracę <br>
+            - Współpraca z innymi ośrodkami R&D na świecie
           </p>
         </div>
         <hr>
@@ -184,10 +185,10 @@
           <h5 class="w3-opacity"><b>Software Tester / Samsung Electronics</b></h5>
           <h6 class="w3-text-teal"><i class="fa fa-calendar fa-fw w3-margin-right"></i> Sep 2011 - Aug 2013 </h6>
           <p>
-            - Conducting field tests with newest Samsung's modem chipsets <br>
-            - Preparation of reports based on the results of carried out tests <br>
-            - Creation of tools (scripts, software) to support the process of data analysis <br>
-            - Cooperation with other R&D centers in the world
+            - Przeprowadzanie testów terenowych (field tests) <br>
+            - Szczegółowe raportowanie w oparciu o przygotowane analizy (ClearQuest, oficjalne raporty) <br>
+            - Tworzenie skryptów wspomagających proces analizy danych i optymalizujących pracę <br>
+            - Współpraca z innymi ośrodkami R&D na świecie
           </p>
         </div>
         <hr>
@@ -195,13 +196,14 @@
           <h5 class="w3-opacity"><b>Data Analyst / Samsung Electronics</b></h5>
           <h6 class="w3-text-teal"><i class="fa fa-calendar fa-fw w3-margin-right"></i> Oct 2010 - Sept 2011 </h6>
           <p> 
-            - Managing a team of 6-12 data coders - recruitment, training and schedule<br>
-            - Technical support for Eye Tracking projects which includes: device preparation, calibration, data extraction and conversion for further formats<br>
-            - Preparation of data templates and input methods for consumer study<br>
-            - Data correction and validation via SPSS/Excel tools<br>
-            - Ensuring proper Syntax documentation for indentified data defects<br>
-            - Preparation of statistical reports for Research team<br>
-            - Administration support for Research and Field departments<br>
+            - Koordynacja pracy zespołu 6-12 koderów - rekrutacja, harmonogram zadań <br>
+            - Wsparcie techniczne projektów z dziedziny Eye Tracking wliczając przygotowanie urządzeń, kalibrację, pozyskanie danych i konwersje plików do dalszych formatów <br>
+            - Przygotowanie szablonów wprowadzania danych dla badań konsumenckich (Excel/SPSS/Media Analizer) <br>
+            - Edycja zdjęć i budowa schematów dla map cieplnych sklepów <br>
+            - Walidacja i korekcja danych z pomocą narzędzi SPSS/PASW i Excel<br>
+            - Sporządzanie dokumentacji dla odnalezionych błędów<br>
+            - Przygotowanie raportów statystycznych dla potrzeb działu badań <br>
+            - Wsparcie administracyjne dla działu badań i fieldu
           </p>
         </div>
         <hr>
@@ -209,13 +211,13 @@
           <h5 class="w3-opacity"><b>Trainee in Department of Marketing and Communication / Ericsson</b></h5>
           <h6 class="w3-text-teal"><i class="fa fa-calendar fa-fw w3-margin-right"></i> Jun 2010 - Aug 2010 </h6>
           <p>
-            - Co-organization of event "Picnic of Knowledge - Polkomtel"<br>
-            - Co-organization of event "Ericsson Truck Roadshow 2010"<br>
-            - Writing information notes on company page<br>
-            - Support of CMS Press Office and material preparation<br> 
-            - Monitoring the media<br>
-            - Preparing translations (ENG->PL, PL->ENG) of corporate information<br>
-            - Support of current marketing activities
+            - Współorganizacja imprezy "Piknik Wiedzy - Polkomtel" <br>
+            - Współorganizacja imprezy "Ericsson Truck Roadshow 2010"  <br>
+            - Pisanie newsów dotyczących firmy na potrzeby sieci intranet  <br>
+            - Wsparcie CMS Press Office  <br>
+            - Monitoring mediów  <br>
+            - Przygotowywanie tłumaczeń (ENG->PL, PL->ENG) informacji korporacyjnych  <br>
+            - Wsparcie bieżących aktywności działu marketingu
           </p>
         </div>
         <hr>
@@ -227,7 +229,9 @@
              - Reporting bugs with bug-tracking software like Test Track Pro, Mantis Bug Tracker<br>
              - Identifies and reports product defects using varying methodologies like functional, stress, usability and regression testing<br>
              - Ensuring proper documentation of defects/reporting of defects, tools in use and methodologies for identifying defects<br>
-             - Ensuring that products meet or exceeds defined quality goals in accordance to project production guidelines
+             - Ensuring that products meet or exceeds defined quality goals in accordance to project production guidelines <br>
+             - Testy funkcjonalne i lingwistyczne gier komputerowych od międzynarodowych, rozpoznawanych na świecie producentów <br>
+             - Raportowanie błędów aplikacji przy pomocy oprogramowania Bug-Trackerskiego Test Track Pro, Mantis Bug Tracker, TeamTrack i innych dostarczanych przez developerów
           </p><br>
         </div>
       </div>
@@ -236,22 +240,22 @@
       <div class="w3-container w3-card-2 w3-white">
         <h2 class="w3-text-grey w3-padding-16"><i class="fa fa-graduation-cap fa-fw w3-margin-right w3-xxlarge w3-text-teal"></i>Education</h2>
         <div class="w3-container">
-          <h5 class="w3-opacity"><b>Warsaw School of Economics</b></h5>
-          <h6 class="w3-text-teal"><i class="fa fa-calendar fa-fw w3-margin-right"></i> Oct 2015 -  Jun 2016</h6>
-          <p>Postgraduate studies in Project Management. <br> 
-          Final thesis about risks and opportunities of adapting DevOps into organization.</p>
+          <h5 class="w3-opacity"><b>Szkoła Główna Handlowa w Warszawie</b></h5>
+          <h6 class="w3-text-teal"><i class="fa fa-calendar fa-fw w3-margin-right"></i> Wrz 2015 -  Czerw 2016</h6>
+          <p>Studia Podyplomowe - Zarządzanie Projektami <br> 
+          Praca końcowa dotycząca ryzyk i korzyści wynikających z wdrożenia DevOps w organizacji.</p>
           <hr>
         </div>
         <div class="w3-container">
-          <h5 class="w3-opacity"><b>Cardinal Stefan Wyszynski University in Warsaw</b></h5>
-          <h6 class="w3-text-teal"><i class="fa fa-calendar fa-fw w3-margin-right"></i>Oct 2010 -  Jun 2015</h6>
-          <p>Master Degree, Sociology</p>
+          <h5 class="w3-opacity"><b>Uniwersytet Kardynała Stefana Wyszyńskiego w Warszawie</b></h5>
+          <h6 class="w3-text-teal"><i class="fa fa-calendar fa-fw w3-margin-right"></i>Wrz 2010 -  Czerw 2015</h6>
+          <p>Magister, Socjologia</p>
           <hr>
         </div>
         <div class="w3-container">
-          <h5 class="w3-opacity"><b>Cardinal Stefan Wyszynski University in Warsaw</b></h5>
-          <h6 class="w3-text-teal"><i class="fa fa-calendar fa-fw w3-margin-right"></i>Oct 2007 -  Sept 2010</h6>
-          <p>Bachelor Degree, Sociology</p><br>
+          <h5 class="w3-opacity"><b>Uniwersytet Kardynała Stefana Wyszyńskiego w Warszawie</b></h5>
+          <h6 class="w3-text-teal"><i class="fa fa-calendar fa-fw w3-margin-right"></i>Wrz 2007 -  Paź 2010</h6>
+          <p>Licencjat, Socjologia</p><br>
         </div>
       </div>
 
