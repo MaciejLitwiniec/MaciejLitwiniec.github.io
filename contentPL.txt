@@ -1,53 +1,4 @@
-<!DOCTYPE html>
-
-<!-- 
-Used technologies:
-- HTML
-- CSS (W3.CSS, Font Awesome)
-- JavaScript/jQuery
-- Ajax
-- Github repository
-- Google Analytics
- -->
-
- <!-- 
-Do dodania:
-CV Download button
-      <button class="w3-btn w3-dark-grey w3-padding-large w3-margin-top w3-margin-bottom">
-        <i class="fa fa-download w3-margin-right"></i>Download Resume
-      </button>
-
-2 jezyki - AJAX
-
-scroll to top przestal dzialac?
-
- -->
-
-<html lang="en">
-<head>
-<title>Maciej Litwiniec - Professional Project Manager, IoT enthusiast</title>
-<meta name="viewport" content="width=device-width, initial-scale=1">
-<meta name="description" author="Maciej Litwiniec" content="Maciej Litwiniec - Conscientious and professional IT Product Manager with extensive experience in telecommunication, data analysis and customer relations. Highly organised and efficient individual, whose thorough and precise approach to projects has yielded excellent results. Recent achievements include succesful leadership in Internet of Things project and number of passed PM certificates which enabled numerous improvements. Page is intended to present personal resume.">
-
-<link rel="icon" href="favicon.png">
-<link rel="stylesheet" href="w3.css">
-<link rel='stylesheet' href='https://fonts.googleapis.com/css?family=Roboto'>
-<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.css">
-
-<style>
-html,body,h1,h2,h3,h4,h5,h6 {font-family: "Roboto", sans-serif}
-a:link {text-decoration: none}
-a:visited {text-decoration: none}
-.fade{opacity: 1}
-</style>
-
-</head>
-<body class="w3-light-grey">
-
-<!-- Page Container -->
-<div id="content" class="w3-container w3-content w3-margin-top" style="max-width:1400px;">
-
-  <!-- The Grid -->
+<!-- The Grid -->
   <div class="w3-row-padding" style="margin:0 -16px">
   
     <!-- Left Column -->
@@ -58,7 +9,7 @@ a:visited {text-decoration: none}
           <img src="photo1.jpg" style="width:100%">
         </div>
         <div class="w3-container"> 
-          <p><i class="fa fa-id-card-o fa-fw w3-margin-right w3-large w3-text-teal"></i>Maciej Litwiniec</p>
+          <p><i class="fa fa-id-card-o fa-fw w3-margin-right w3-large w3-text-teal"></i>Polski content</p>
           <p><i class="fa fa-briefcase fa-fw w3-margin-right w3-large w3-text-teal"></i>IT Operations Manager (IoT)</p>
           <p><i class="fa fa-home fa-fw w3-margin-right w3-large w3-text-teal"></i>Warsaw, Poland</p>
           <p><i class="fa fa-envelope fa-fw w3-margin-right w3-large w3-text-teal"></i>litwiniec.maciej@gmail.com</p>
@@ -168,7 +119,7 @@ a:visited {text-decoration: none}
         <h2 class="w3-text-grey w3-padding-16"><i class="fa fa-user-circle-o fa-fw w3-margin-right w3-xxlarge w3-text-teal"></i>Work Summary</h2>
         <div class="w3-container">
           <h5 class="w3-opacity"><b>
-          Conscientious and professional IT Product Manager with extensive experience in telecommunication,
+          Polski content IT Product Manager with extensive experience in telecommunication,
           data analysis and customer relations. Highly organised and efficient individual, whose thorough and
           precise approach to projects has yielded excellent results. Recent achievements include succesful leadership in Internet of Things project and number of passed PM certificates which enabled numerous improvements. 
           </b></h5>
@@ -309,69 +260,3 @@ a:visited {text-decoration: none}
     
   <!-- End Grid -->
   </div>
-  
-  <!-- End Page Container -->
-</div>
-
-
-<footer class="w3-container w3-teal w3-center w3-margin-top">
-  <p><a href="#top">Back to top </a></p>
-</footer>
- 
-
-<!-- SCRIPTS -->
-
-<!-- Go to top - link -->
-<script type="text/javascript">
-  $("a[href='#top']").click(function() {
-  $("html, body").animate({ scrollTop: 0 }, "slow");
-  return false;
-});
-</script>
-
-
-<!-- Load Polish ver -->
-<script type="text/javascript">
-  function loadDocPL() {
-  var xhttp = new XMLHttpRequest();
-  xhttp.onreadystatechange = function() {
-    if (this.readyState == 4 && this.status == 200) {
-     document.getElementById("content").innerHTML = this.responseText;
-    }
-  };
-  xhttp.open("GET", "contentPL.txt", true);
-  xhttp.send();
-} 
-</script>
-
-<!-- Load English ver -->
-<script type="text/javascript">
-  function loadDocEN() {
-  var xhttp = new XMLHttpRequest();
-  xhttp.onreadystatechange = function() {
-    if (this.readyState == 4 && this.status == 200) {
-     document.getElementById("content").innerHTML = this.responseText;
-    }
-  };
-  xhttp.open("GET", "contentEN.txt", true);
-  xhttp.send();
-} 
-</script>
-
-<!-- Google Analytics --> 
-<script>
-  (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
-  (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
-  m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
-  })(window,document,'script','https://www.google-analytics.com/analytics.js','ga');
-
-  ga('create', 'UA-86385001-1', 'auto');
-  ga('send', 'pageview');
-</script>
-
-<!-- jQuery -->
-<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
-
-</body>
-</html>
-
