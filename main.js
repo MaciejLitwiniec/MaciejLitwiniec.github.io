@@ -12,7 +12,7 @@ function loadDocPL() {
      document.getElementById("content").innerHTML = this.responseText;
    }
  };
- xhttp.open("GET", "contentPL.txt", true);
+ xhttp.open("GET", "contentPL.html", true);
  xhttp.send();
 }
  
@@ -23,6 +23,6 @@ function loadDocEN() {
      document.getElementById("content").innerHTML = this.responseText;
    }
  };
- xhttp.open("GET", "contentEN.txt", true);
+ xhttp.open("GET", "contentEN.html", true);
  xhttp.send();
 } 
