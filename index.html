@@ -1,0 +1,344 @@
+<!DOCTYPE html>
+
+<!-- 
+Used technologies:
+- HTML
+- CSS (W3.CSS, Font Awesome)
+- JavaScript/jQuery
+- Ajax
+- Github repository
+- Google Analytics
+ -->
+
+
+<html lang="en">
+<head>
+<title>Maciej Litwiniec - Professional Project Manager, IoT enthusiast</title>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta name="description" author="Maciej Litwiniec" content="Maciej Litwiniec - Conscientious and professional IT Product Manager with extensive experience in telecommunication, data analysis and customer relations. Highly organised and efficient individual, whose thorough and precise approach to projects has yielded excellent results. Recent achievements include succesful leadership in Internet of Things project and number of passed PM certificates which enabled numerous improvements. Page is intended to present personal resume.">
+
+<link rel="icon" href="favicon.png">
+<link rel="stylesheet" href="w3.css">
+<link rel='stylesheet' href='https://fonts.googleapis.com/css?family=Roboto'>
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.css">
+
+<style>
+html,body,h1,h2,h3,h4,h5,h6 {font-family: "Roboto", sans-serif}
+a:link {text-decoration: none}
+a:visited {text-decoration: none}
+.fade{opacity: 1}
+ul.square {list-style-type: square;}
+</style>
+
+</head>
+<body class="w3-light-grey">
+
+<!-- Page Container -->
+<div id="content" class="w3-container w3-content w3-margin-top" style="max-width:1400px;">
+
+  <!-- The Grid -->
+  <div class="w3-row-padding" style="margin:0 -16px">
+  
+    <!-- Left Column -->
+    <div class="w3-quarter">
+    
+      <div class="w3-white w3-text-grey w3-card-4">
+        <div class="w3-display-container">
+          <img src="photo1.jpg" style="width:100%">
+        </div>
+        <div class="w3-container"> 
+          <p><i class="fa fa-id-card-o fa-fw w3-margin-right w3-large w3-text-teal"></i>Maciej Litwiniec</p>
+          <p><i class="fa fa-briefcase fa-fw w3-margin-right w3-large w3-text-teal"></i>IT Operations Manager (IoT)</p>
+          <p><i class="fa fa-home fa-fw w3-margin-right w3-large w3-text-teal"></i>Warsaw, Poland</p>
+          <p><i class="fa fa-envelope fa-fw w3-margin-right w3-large w3-text-teal"></i>litwiniec.maciej@gmail.com</p>
+          <p><a href="https://www.linkedin.com/in/litwiniecm">
+              <i class="fa fa-linkedin fa-fw w3-margin-right w3-large w3-text-teal"></i>Linkedin Profile
+            </a>
+          </p>
+          <hr>
+          <p>
+            <div class="w3-margin-bottom w3-left w3-margin-right">Change language:</div>
+            <!--<button id="LangEnglish" type="button" onclick="loadDocEN()"><i class="fa fa-flag fa-fw w3-large w3-text-teal"></i>English</button>-->
+            <button id="LangPolish" type="button"onclick="loadDocPL()"><i class="fa fa-flag-o fa-fw w3-large w3-text-teal"></i>Polish</button>
+          </p>
+          <p>
+            <div class="w3-margin-bottom w3-left w3-margin-right">CV download:</div>
+            <form method="get" action="CV_EN_Maciej_Litwiniec_20160104.pdf">
+            <button type="submit" class="w3-margin-left"><i class="fa fa-cloud-download fa-fw w3-large w3-text-teal"></i> English</button>
+            </form>
+          </p>
+          <hr>
+          <p class="w3-large"><b><i class="fa fa-asterisk fa-fw w3-margin-right w3-text-teal"></i>Skills</b></p>
+          <p>Project Management</p>
+          <div class="w3-progress-container w3-round-xlarge w3-small">
+            <div class="w3-progressbar w3-round-xlarge w3-teal" style="width:90%">
+              <div class="w3-center w3-text-white">90%</div>
+            </div>
+          </div>
+          <p>Testing</p>
+          <div class="w3-progress-container w3-round-xlarge w3-small">
+            <div class="w3-progressbar w3-round-xlarge w3-teal" style="width:75%">
+              <div class="w3-center w3-text-white">75%</div>
+            </div>
+          </div>
+          <p>Statistics</p>
+          <div class="w3-progress-container w3-round-xlarge w3-small">
+            <div class="w3-progressbar w3-round-xlarge w3-teal" style="width:60%">
+              <div class="w3-center w3-text-white">60%</div>
+            </div>
+          </div>
+          <p>Programming</p>
+          <div class="w3-progress-container w3-round-xlarge w3-small">
+            <div class="w3-progressbar w3-round-xlarge w3-teal" style="width:40%">
+              <div class="w3-center w3-text-white">40%</div>
+            </div>
+          </div>
+          <br>
+          
+          <!-- Certificates -->
+          <p class="w3-large w3-text-theme"><b><i class="fa fa-certificate fa-fw w3-margin-right w3-text-teal"></i>Certificates</b></p>
+          <p>Prince 2</p>
+          <div class="w3-progress-container w3-round-xlarge">
+            <div class="w3-progressbar w3-round-xlarge w3-teal" style="width:100%">
+              <div class="w3-center w3-text-white">Foundation</div>
+            </div>
+          </div>
+          <p>ITIL</p>
+          <div class="w3-progress-container w3-round-xlarge">
+            <div class="w3-progressbar w3-round-xlarge w3-teal" style="width:100%">
+              <div class="w3-center w3-text-white">Foundation</div>
+            </div>
+          </div>
+          <p>Lean IT</p>
+          <div class="w3-progress-container w3-round-xlarge">
+            <div class="w3-progressbar w3-round-xlarge w3-teal" style="width:100%">
+              <div class="w3-center w3-text-white">Foundation</div>
+            </div>
+          </div>
+          <p>ISTQB</p>
+          <div class="w3-progress-container w3-round-xlarge">
+            <div class="w3-progressbar w3-round-xlarge w3-teal" style="width:100%">
+              <div class="w3-center w3-text-white">Foundation</div>
+            </div>
+          </div>
+          <br>
+          
+          <!-- Languages -->
+          <p class="w3-large w3-text-theme"><b><i class="fa fa-globe fa-fw w3-margin-right w3-text-teal"></i>Languages</b></p>
+          <p>Polish</p>
+          <div class="w3-progress-container w3-round-xlarge">
+            <div class="w3-progressbar w3-round-xlarge w3-teal" style="width:100%">
+              <div class="w3-center w3-text-white">Native</div>
+            </div>
+          </div>
+          <p>English</p>
+          <div class="w3-progress-container w3-round-xlarge">
+            <div class="w3-progressbar w3-round-xlarge w3-teal" style="width:80%">
+              <div class="w3-center w3-text-white">Business</div>
+            </div>
+          </div>
+          <p>German</p>
+          <div class="w3-progress-container w3-round-xlarge">
+            <div class="w3-progressbar w3-round-xlarge w3-teal" style="width:30%">
+              <div class="w3-center w3-text-white">Developing</div>
+            </div>
+          </div><br>
+        </div>
+      </div><br>
+
+    <!-- End Left Column -->
+    </div>
+
+    <!-- Right Column -->
+    <div class="w3-threequarter">
+    
+      <div class="w3-container w3-card-2 w3-white w3-margin-bottom">
+        <h2 class="w3-text-grey w3-padding-16"><i class="fa fa-user-circle-o fa-fw w3-margin-right w3-xxlarge w3-text-teal"></i>Work Summary</h2>
+        <div class="w3-container">
+          <h5 class="w3-opacity"><b>
+          Conscientious and professional IT Product Manager with extensive experience in telecommunication,
+          data analysis and customer relations. Highly organised and efficient individual, whose thorough and
+          precise approach to projects has yielded excellent results. Recent achievements include succesful leadership in Internet of Things project and number of passed PM certificates which enabled numerous improvements. 
+          </b></h5>
+          
+          <p>
+          <ul class="square">
+            <li>5+ years of commercial experience in Software Quality Assurance</li>
+            <li>3+ years of hands-on experience with GSM/UMTS/LTE RAN technologies (EU, US, Japan)</li>
+            <li>2+ years of experience in data analysis (SPSS/Excel), summarizing data and official reporting</li>
+            <li>2+ years of experience with managing local, moderate size teams and offshore members</li>
+            <li>Experience with Cloud solutions, IoT technologies and Big Data</li>
+            <li>Experience with bug-tracking tools like JIRA, HP SM/AML, IBM ClearQuest and Mantis</li>
+            <li>Experience with Prince2, Agile methodologies (Scrum, Kanban), ITIL and Lean IT</li>
+            <li>Experience with use of English language on daily basis</li>
+            <li>Experience with multi-cultural environments</li>
+            <li>Familiar with JavaScript, Java, HTML, CSS, SQL</li>
+          </ul>
+          </p>
+        </div>
+      </div>
+
+      <!-- ======= WORK EXPERIENCE ======== -->
+      <div class="w3-container w3-card-2 w3-white w3-margin-bottom">
+        <h2 class="w3-text-grey w3-padding-16"><i class="fa fa-suitcase fa-fw w3-margin-right w3-xxlarge w3-text-teal"></i>Work Experience</h2>
+        <div class="w3-container">
+          <h5 class="w3-opacity"><b>IT Regional Product Manager / BSH Home Appliances Group</b></h5>
+          <h6 class="w3-text-teal"><i class="fa fa-calendar fa-fw w3-margin-right"></i>March 2016 - <span class="w3-tag w3-teal w3-round">Current</span></h6>
+              <p>
+              <ul class="square">
+                <li>Accountability of the HomeConnect IT solution - Internet of Things (IoT) in the region</li>
+                <li>Coordination of enhancements and version management in strong cooperation with corporate IT Product Management</li>
+                <li>Responsible for the IT system across whole product lifecycle together with corporate team and external partners</li>
+                <li>Establishing regional 2nd and 3rd level support team and processes </li>
+             </ul>
+             </p>
+          <hr>
+        </div>
+        <div class="w3-container">
+          <h5 class="w3-opacity"><b>Test Leader &amp; Sub Project Leader / LG Electronics</b></h5>
+          <h6 class="w3-text-teal"><i class="fa fa-calendar fa-fw w3-margin-right"></i>June 2015 - Feb 2016</h6>
+          <p>
+          <ul class="square">
+            <li>Manage day-to-day test activities including test monitoring and status reporting in projects </li>
+            <li>Test resource allocation and activitie plan </li>
+            <li>Ensure all encountered defects are assigned, worked, resolved and re-tested. Tracking and reporting defect status </li>
+            <li>Timely escalations and communication of risks and issues </li>
+            <li>Daily reporting test progress </li>
+            <li>Prepare and submit final test report to the Model Manager </li>
+            <li>Device Under Test sample management </li>
+            <li>Hands-on when needed in test analysis, test design (creating scenarios/test cases), test execution </li>
+          </ul>
+          </p>
+          <hr>
+        </div>
+        <div class="w3-container">
+          <h5 class="w3-opacity"><b>Junior Protocol Engineer / Samsung Electronics</b></h5>
+          <h6 class="w3-text-teal"><i class="fa fa-calendar fa-fw w3-margin-right"></i>May 2013 - May 2015</h6>
+          <p>
+          <ul class="square">
+            <li>On-site analysis of 2G/3G/LTE radio communication protocols in Poland, US and Scandinavia </li>
+            <li>IOT/IODT test sessions of 3G/LTE protocol stack with NTT DoCoMo (Japan) </li>
+            <li>Performing tests of modems in smartphones according to 3GPP specifications </li>
+            <li>Detailed reporting from performed analysis (ClearQuest, official daily reporting) </li>
+            <li>Creation of tools (scripts, software) to support the process of data analysis </li>
+            <li>Cooperation with other R&amp;D centers in the world </li>
+          </ul>
+          </p>
+        </div>
+        <hr>
+        <div class="w3-container">
+          <h5 class="w3-opacity"><b>Software Tester / Samsung Electronics</b></h5>
+          <h6 class="w3-text-teal"><i class="fa fa-calendar fa-fw w3-margin-right"></i> Sep 2011 - Aug 2013 </h6>
+          <p>
+          <ul class="square">
+            <li>Conducting field tests with newest Samsung's modem chipsets</li>
+            <li>Preparation of reports based on the results of carried out tests</li>
+            <li>Creation of tools (scripts, software) to support the process of data analysis</li>
+            <li>Cooperation with other R&amp;D centers in the world</li>
+          </ul>
+          </p>
+        </div>
+        <hr>
+        <div class="w3-container">
+          <h5 class="w3-opacity"><b>Data Analyst / Samsung Electronics</b></h5>
+          <h6 class="w3-text-teal"><i class="fa fa-calendar fa-fw w3-margin-right"></i> Oct 2010 - Sept 2011 </h6>
+          <p>
+          <ul class="square"> 
+            <li>Managing a team of 6-12 data coders - recruitment, training and schedule</li>
+            <li>Technical support for Eye Tracking projects which includes: device preparation, calibration, data extraction and conversion for further formats</li>
+            <li>Preparation of data templates and input methods for consumer study</li>
+            <li>Data correction and validation via SPSS/Excel tools</li>
+            <li>Ensuring proper Syntax documentation for indentified data defects</li>
+            <li>Preparation of statistical reports for Research team</li>
+            <li>Administration support for Research and Field departments</li>
+          </ul>
+          </p>
+        </div>
+        <hr>
+        <div class="w3-container">
+          <h5 class="w3-opacity"><b>Trainee in Department of Marketing and Communication / Ericsson</b></h5>
+          <h6 class="w3-text-teal"><i class="fa fa-calendar fa-fw w3-margin-right"></i> Jun 2010 - Aug 2010 </h6>
+          <p>
+          <ul class="square">
+            <li>Co-organization of event "Picnic of Knowledge - Polkomtel"</li>
+            <li>Co-organization of event "Ericsson Truck Roadshow 2010"</li>
+            <li>Writing information notes on company page</li>
+            <li>Support of CMS Press Office and material preparation</li> 
+            <li>Monitoring the media</li>
+            <li>Preparing translations (ENG->PL, PL->ENG) of corporate information</li>
+            <li>Support of current marketing activities</li>
+          </ul>
+          </p>
+        </div>
+        <hr>
+        <div class="w3-container">
+          <h5 class="w3-opacity"><b>Quality Assurance Tester &amp; Localisation Tester / CD Projekt Localisation Centre</b></h5>
+          <h6 class="w3-text-teal"><i class="fa fa-calendar fa-fw w3-margin-right"></i> Jun 2007 - Aug 2010 </h6>
+          <p>
+          <ul class="square">
+             <li>Functionality and linguistic testing of computer games from international, worldwide known studios</li>
+             <li>Reporting bugs with bug-tracking software like Test Track Pro, Mantis Bug Tracker</li>
+             <li>Identifies and reports product defects using varying methodologies like functional, stress, usability and regression testing</li>
+             <li>Ensuring proper documentation of defects/reporting of defects, tools in use and methodologies for identifying defects</li>
+             <li>Ensuring that products meet or exceeds defined quality goals in accordance to project production guidelines</li>
+          </ul>
+          </p><br>
+        </div>
+      </div>
+      
+      <!-- ======= EDUCATION ======== -->
+      <div class="w3-container w3-card-2 w3-white">
+        <h2 class="w3-text-grey w3-padding-16"><i class="fa fa-graduation-cap fa-fw w3-margin-right w3-xxlarge w3-text-teal"></i>Education</h2>
+        <div class="w3-container">
+          <h5 class="w3-opacity"><b>Warsaw School of Economics</b></h5>
+          <h6 class="w3-text-teal"><i class="fa fa-calendar fa-fw w3-margin-right"></i> Oct 2015 -  Jun 2016</h6>
+          <p>Postgraduate studies in Project Management. <br> 
+          Final thesis about risks and opportunities of adapting DevOps into organization.</p>
+          <hr>
+        </div>
+        <div class="w3-container">
+          <h5 class="w3-opacity"><b>Cardinal Stefan Wyszynski University in Warsaw</b></h5>
+          <h6 class="w3-text-teal"><i class="fa fa-calendar fa-fw w3-margin-right"></i>Oct 2010 -  Jun 2015</h6>
+          <p>Master Degree, Sociology</p>
+          <hr>
+        </div>
+        <div class="w3-container">
+          <h5 class="w3-opacity"><b>Cardinal Stefan Wyszynski University in Warsaw</b></h5>
+          <h6 class="w3-text-teal"><i class="fa fa-calendar fa-fw w3-margin-right"></i>Oct 2007 -  Sept 2010</h6>
+          <p>Bachelor Degree, Sociology</p><br>
+        </div>
+      </div>
+
+    <!-- End Right Column -->
+    </div>
+    
+  <!-- End Grid -->
+  </div>
+  
+  <!-- End Page Container -->
+</div>
+
+
+<footer class="w3-container w3-teal w3-center w3-margin-top">
+  <p><a href="#top">Back to top </a></p>
+</footer>
+ 
+
+<!-- Google Analytics --> 
+<script>
+  (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+  (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+  m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+  })(window,document,'script','https://www.google-analytics.com/analytics.js','ga');
+
+  ga('create', 'UA-86385001-1', 'auto');
+  ga('send', 'pageview');
+</script>
+
+<!-- jQuery -->
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
+<script src="main.js"></script>
+
+</body>
+</html>
+
